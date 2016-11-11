@@ -49,7 +49,7 @@ public class Xogo {
            do {
             n=Integer.parseInt(JOptionPane.showInputDialog("numero"));
            } while (n<1||n>50);
-            int r=e-n;
+            int r=Math.abs(e-n);
             if (r>20){
             System.out.println("moi lonxe"); 
             c++;}
