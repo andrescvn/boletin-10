@@ -16,7 +16,7 @@ public class Xogo {
         int n,i,m;
         int c=0;
         do {
-            n=Integer.parseInt(JOptionPane.showInputDialog("numero"));
+            n=Integer.parseInt(JOptionPane.showInputDialog("numero a adiviñar"));
         }while (n<1||n>50);
         do {
             i=Integer.parseInt(JOptionPane.showInputDialog("intentos"));
