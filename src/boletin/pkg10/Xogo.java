@@ -37,7 +37,7 @@ public class Xogo {
     public void xogo2(){
         int c=0;
         int n,i;
-        int e = (int)Math.floor(Math.random()*50+1);
+          int e = (int) Math.floor(Math.random()*50+1);
         do {
             i=Integer.parseInt(JOptionPane.showInputDialog("intentos"));
         }while (i<=0);
