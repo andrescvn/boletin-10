@@ -13,9 +13,7 @@ import javax.swing.JOptionPane;
  */
 public class Xogo {
     public void xogo (){
-        int n;
-        int i;
-        int m;
+        int n,i,m;
         int c=0;
         do {
             n=Integer.parseInt(JOptionPane.showInputDialog("numero"));
@@ -38,10 +36,8 @@ public class Xogo {
     }
     public void xogo2(){
         int c=0;
-        int n;
-        int i;
+        int n,i;
           int e = (int) Math.floor(Math.random()*50+1);
-          System.out.println(e);
         do {
             i=Integer.parseInt(JOptionPane.showInputDialog("intentos"));
         }while (i<=0);
