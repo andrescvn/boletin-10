@@ -13,18 +13,18 @@ import javax.swing.JOptionPane;
  */
 public class Xogo {
     public void xogo (){
-        float n;
+        int n;
         int i;
-        float m;
+        int m;
         int c=0;
         do {
-            n=Float.parseFloat(JOptionPane.showInputDialog("numero"));
+            n=Integer.parseInt(JOptionPane.showInputDialog("numero"));
         }while (n<1||n>50);
         do {
             i=Integer.parseInt(JOptionPane.showInputDialog("intentos"));
         }while (i<=0);
         do{
-            m=Float.parseFloat(JOptionPane.showInputDialog("numero"));
+            m=Integer.parseInt(JOptionPane.showInputDialog("numero"));
             if (m<n){
                 System.out.println("maior");
                 c++;}
@@ -48,18 +48,18 @@ public class Xogo {
        do{
            do {
             n=Integer.parseInt(JOptionPane.showInputDialog("numero"));
-           } while (n<1||n>50);
+           } while (n<1 || n>50);
             int r=Math.abs(e-n);
             if (r>20){
             System.out.println("moi lonxe"); 
             c++;}
-            else if (r>=10&&r<=20){
+            else if (r>=10 && r<=20){
             System.out.println("lonxe"); 
             c++;}
-            else if (r<10&&r>5){
+            else if (r<10 && r>5){
             System.out.println("preto");
             c++;}
-           else if (r<=5&&r!=0){   
+           else if (r<=5 && r!=0){   
             System.out.println("moi preto");
             c++;}
             else if (r==0)
