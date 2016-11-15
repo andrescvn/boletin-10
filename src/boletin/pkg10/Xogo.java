@@ -37,7 +37,7 @@ public class Xogo {
     public void xogo2(){
         int c=0;
         int n,i;
-          int e = (int) Math.floor(Math.random()*50+1);
+          int e = (int) Math.floor(Math.random()*50+1);;
         do {
             i=Integer.parseInt(JOptionPane.showInputDialog("intentos"));
         }while (i<=0);
@@ -49,13 +49,13 @@ public class Xogo {
             if (r>20){
             System.out.println("moi lonxe"); 
             c++;}
-            else if (r>=10 && r<=20){
+            else if (r>=10){
             System.out.println("lonxe"); 
             c++;}
-            else if (r<10 && r>5){
+            else if (r>5){
             System.out.println("preto");
             c++;}
-           else if (r<=5 && r!=0){   
+           else if (r!=0){   
             System.out.println("moi preto");
             c++;}
             else if (r==0)

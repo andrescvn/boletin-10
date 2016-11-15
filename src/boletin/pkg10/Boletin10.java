@@ -17,7 +17,7 @@ public class Boletin10 {
     public static void main(String[] args) {
         // TODO code application logic here
         Xogo xogo=new Xogo();
-        xogo.xogo();
+        //xogo.xogo();
         xogo.xogo2();
     }
     
