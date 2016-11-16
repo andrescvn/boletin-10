@@ -25,8 +25,11 @@ public class Boletin10 {
                 case 1:
                 xogo.xogo();
                 break;
+                case 2:
+                xogo2.xogo();
+                break;
                 default:
-        xogo2.xogo();
+                    System.out.println("Adios");
     }
     }
 }
