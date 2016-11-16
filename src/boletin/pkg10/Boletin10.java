@@ -29,7 +29,7 @@ public class Boletin10 {
                 xogo2.xogo();
                 break;
                 default:
-                    System.out.println("Adios");
+                    System.out.println("Adíos");
     }
     }
 }
