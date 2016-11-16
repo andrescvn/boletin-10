@@ -34,32 +34,6 @@ public class Xogo {
                 System.out.println("correcto");
         }while (m!=n&&c!=i); 
     }
-    public void xogo2(){
-        int c=0;
-        int n,i;
-          int e = (int) Math.floor(Math.random()*50+1);;
-        do {
-            i=Integer.parseInt(JOptionPane.showInputDialog("intentos"));
-        }while (i<=0);
-       do{
-           do {
-            n=Integer.parseInt(JOptionPane.showInputDialog("numero"));
-           } while (n<1 || n>50);
-            int r=Math.abs(e-n);
-            if (r>20){
-            System.out.println("moi lonxe"); 
-            c++;}
-            else if (r>=10){
-            System.out.println("lonxe"); 
-            c++;}
-            else if (r>5){
-            System.out.println("preto");
-            c++;}
-           else if (r!=0){   
-            System.out.println("moi preto");
-            c++;}
-            else if (r==0)
-            System.out.println("correcto");
-        }while (n!=e&&c!=i); 
+
     }        
-}
+
