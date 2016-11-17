@@ -11,15 +11,13 @@ public class Xogo {
         }while (i<=0);
         do{
             m=Integer.parseInt(JOptionPane.showInputDialog("numero"));
-            if (m<n){
+            if (m<n)
                 System.out.println("maior");
-                c++;}
-            else if (m>n){
+            else if (m>n)
                     System.out.println("menor");
-                    c++;
-            }
             else
                 System.out.println("correcto");
+            c++;
         }while (m!=n&&c!=i); 
     }
     }        

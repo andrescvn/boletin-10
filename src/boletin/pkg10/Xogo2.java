@@ -22,20 +22,17 @@ public class Xogo2 {
             n=Integer.parseInt(JOptionPane.showInputDialog("numero"));
            } while (n<1 || n>50);
             int r=Math.abs(e-n);
-            if (r>20){
+            if (r>20)
             System.out.println("moi lonxe"); 
-            c++;}
-            else if (r>=10){
+            else if (r>=10)
             System.out.println("lonxe"); 
-            c++;}
-            else if (r>5){
+            else if (r>5)
             System.out.println("preto");
-            c++;}
-           else if (r!=0){   
+           else if (r!=0) 
             System.out.println("moi preto");
-            c++;}
             else if (r==0)
             System.out.println("correcto");
+            c++;
         }while (n!=e&&c!=i); 
 }
 }
