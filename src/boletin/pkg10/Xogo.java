@@ -15,10 +15,14 @@ public class Xogo {
                 System.out.println("maior");
             else if (m>n)
                     System.out.println("menor");
-            else
+            else{
                 System.out.println("correcto");
+            break;}
             c++;
         }while (m!=n&&c!=i); 
+        if (c==i)
+            System.out.println("perdiste");
     }
+    
     }        
 

@@ -30,9 +30,13 @@ public class Xogo2 {
             System.out.println("preto");
            else if (r!=0) 
             System.out.println("moi preto");
-            else if (r==0)
+            else if (r==0){
             System.out.println("correcto");
+            break;}
             c++;
+            
         }while (n!=e&&c!=i); 
+       if (c==i)
+                System.out.println("perdiste");
 }
 }
